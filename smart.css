@@ -1,0 +1,41 @@
+.smart-scheduling-section {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+  border-top: 2px solid #00ffe7;
+  border-bottom: 2px solid #00ffe7;
+}
+
+.smart-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background-color: #1c1c1c;
+  border: 2px solid #00ffe7;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0, 255, 231, 0.15);
+}
+
+.smart-container h2 {
+  text-align: center;
+  color: #00ffe7;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.info-block {
+  margin-bottom: 30px;
+}
+
+.info-block h3 {
+  color: #00ffe7;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.info-block p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
