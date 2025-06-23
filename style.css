@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #1f1f1f, #2e2e2e);
+  color: #ffffff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+  color: #00ffe7;
+  font-family: 'Orbitron', sans-serif;
+  border-bottom: 2px solid #00ffe7;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo, .tag, .user {
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #00ffe7;
+  color: #000;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+.info p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.features h2, .key-features h2 {
+  color: #00ffe7;
+  margin-bottom: 20px;
+}
+
+.feature-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background: #1c1c1c;
+  border: 1px solid #00ffe7;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px #00ffe7;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #1c1c1c;
+}
+
+th, td {
+  border: 1px solid #00ffe7;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #00ffe7;
+  color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: aqua;
+}
